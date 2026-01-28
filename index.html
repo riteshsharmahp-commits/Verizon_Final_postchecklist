@@ -173,9 +173,10 @@ checklistData.forEach(text => {
     <div class="row">
       <span>${text}</span>
       <div class="actions">
-        <button onclick="selectOption(this,'OK')">OK</button>
-        <button onclick="selectOption(this,'NOK')">NOK</button>
-      </div>
+  <button onclick="selectOption(this,'OK')">OK</button>
+  <button onclick="selectOption(this,'NOK')">NOK</button>
+  <button onclick="selectOption(this,'NA')">NA</button>
+</div>
     </div>
     <textarea class="comment" placeholder="Enter remarks"></textarea>
     <div class="error">⚠ Comment required when NOK selected</div>
